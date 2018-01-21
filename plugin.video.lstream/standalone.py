@@ -128,7 +128,7 @@ def displayBanner(imageloc, displaytime, position):
     global intYOffset
     global __addon__
 
-    __addon__ = xbmcaddon.Addon(id='service.banners.mod')
+    __addon__ = xbmcaddon.Addon(id='plugin.video.lstream')
 
     ActWin = xbmcgui.getCurrentWindowId()
     myWidget = OverlayText(ActWin)
