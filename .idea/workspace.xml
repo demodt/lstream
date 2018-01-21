@@ -1,7 +1,510 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7f00075-003f-4d9b-932c-3d9fda30e7c3" name="Default" comment="" />
+    <list default="true" id="c7f00075-003f-4d9b-932c-3d9fda30e7c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/plugin.video.lstream/plugin.video.vstream-0.5.8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/repository.lstream/repository.vstream-0.0.3.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/repository.vstream/repository.vstream-0.0.2.zip" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/addon.xml" afterPath="$PROJECT_DIR$/plugin.video.lstream/addon.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/changelog.txt" afterPath="$PROJECT_DIR$/plugin.video.lstream/changelog.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/default.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/default.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/icon.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/license.txt" afterPath="$PROJECT_DIR$/plugin.video.lstream/license.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/actor.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/actor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_annees.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_annees.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_az.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_az.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_enfants.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_enfants.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_genres.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_genres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_host.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_host.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_news.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_news.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_vf.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_vf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_views.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_views.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/animes_vostfr.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/animes_vostfr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/annees.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/annees.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/az.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/az.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/buzz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/buzz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/buzz_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/buzz_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/comments.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/comments.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/doc.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/doc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/doc_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/doc_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/download.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/download.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/download_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/download_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_annees.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_annees.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_az.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_az.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_comments.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_comments.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_genres.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_genres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_hd.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_hd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_host.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_host.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_news.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_news.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_notes.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_notes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_vf.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_vf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_views.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_views.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/films_vostfr.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/films_vostfr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/genres.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/genres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/host.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/host.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/host_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/host_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/icon.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/lang.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/lang.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/library.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/library.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/library_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/library_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/libretv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/libretv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/listes.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/listes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/mark.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/mark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/mark_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/mark_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/news.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/news.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/next.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/none.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/none.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/notes.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/notes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/replay.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/replay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/replay_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/replay_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/replay_genres.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/replay_genres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/replay_host.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/replay_host.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/replay_news.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/replay_news.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/search.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/search_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/search_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/searchtmdb.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/searchtmdb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_annees.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_annees.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_az.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_az.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_comments.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_comments.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_genres.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_genres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_hd.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_hd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_host.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_host.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_news.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_news.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_notes.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_notes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_vf.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_vf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_views.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_views.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/series_vostfr.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/series_vostfr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/adkami_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/adkami_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/alluc_ee.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/alluc_ee.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/buzzmonclick_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/buzzmonclick_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/cinemavf.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/cinemavf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/cinemay_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/cinemay_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/cinemegatoil_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/cinemegatoil_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/coco_stream.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/coco_stream.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/ddl_island_su.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/ddl_island_su.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/disneyhd_tk.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/disneyhd_tk.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/documentaires_streaming_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/documentaires_streaming_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/evilox.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/evilox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/film_illimit_fr.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/film_illimit_fr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/filmstreamingv2.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/filmstreamingv2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/filmstreamvk_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/filmstreamvk_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/filmsvostfr_biz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/filmsvostfr_biz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/filmzenstream_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/filmzenstream_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/free_telechargement_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/free_telechargement_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/freebox.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/freebox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/french_stream_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/french_stream_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/frenchddl_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/frenchddl_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/full_stream_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/full_stream_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/fullmoviz_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/fullmoviz_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/gum_gum_streaming_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/gum_gum_streaming_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/kaydo_ws.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/kaydo_ws.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/kepliz_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/kepliz_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/les_debiles.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/les_debiles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/les_docus.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/les_docus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/libertyland_tv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/libertyland_tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/libre_stream_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/libre_stream_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/malaisetv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/malaisetv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/mangacity_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/mangacity_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/mareplaytv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/mareplaytv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/megastream.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/megastream.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/navixsport_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/navixsport_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/neuf_docu.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/neuf_docu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/otakufr_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/otakufr_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/papstream.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/papstream.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/papystreaming_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/papystreaming_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/planet_streaming.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/planet_streaming.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/regarder_films.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/regarder_films.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/replaytvstreaming_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/replaytvstreaming_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/reportagestv_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/reportagestv_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/robindesdroits.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/robindesdroits.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/serie_streaming_watch.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/serie_streaming_watch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/serie_streaminghd.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/serie_streaminghd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/series_en_streaming_tv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/series_en_streaming_tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/siteuptobox.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/siteuptobox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/skstream_co.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/skstream_co.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/sokrostream_biz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/sokrostream_biz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/spion_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/spion_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamase_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamase_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamay_bz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamay_bz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamcomplet.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamcomplet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamelite.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamelite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamfilmzzz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamfilmzzz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streaming_series_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streaming_series_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streaming_series_xyz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streaming_series_xyz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamingbb.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamingbb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamingk_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamingk_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamiz_co.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamiz_co.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/streamzzz_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/streamzzz_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/themoviedb_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/themoviedb_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/tntv_rattrapage.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/tntv_rattrapage.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/topimdb.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/topimdb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/topreplay.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/topreplay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/tv_streaming_ch.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/tv_streaming_ch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/tvrex_net.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/tvrex_net.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/videobuzzy_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/videobuzzy_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/vkstreamingfilm_biz.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/vkstreamingfilm_biz.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/voirfilms_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/voirfilms_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/youtitou_com.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/youtitou_com.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/zone_telechargement_eu.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/zone_telechargement_eu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/zone_telechargement_ws.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/zone_telechargement_ws.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sites/zonestreaming.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sites/zonestreaming.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sport.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sport.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/sport_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/sport_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/star.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/star.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/streaming_series_org.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/streaming_series_org.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/trakt.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/trakt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/trakt_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/trakt_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/trash.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/trash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/6ter.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/6ter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/ab1.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/ab1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/arte.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/arte.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/beinsport1.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/beinsport1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/beinsport2.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/beinsport2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/beinsport3.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/beinsport3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/bfm.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/bfm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/bfmbus.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/bfmbus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/boomerang.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/boomerang.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/c8.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/c8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/cherie25.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/cherie25.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/comedie.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/comedie.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/cstar.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/cstar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/discovery.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/discovery.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/disneychannel.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/disneychannel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/dorcel.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/dorcel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/equidia.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/equidia.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/equipe21.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/equipe21.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/euronews.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/euronews.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/eurosport.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/eurosport.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/eurosport2.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/eurosport2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/france2.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/france2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/france24.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/france24.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/france3.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/france3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/france4.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/france4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/france5.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/france5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/franceo.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/franceo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/gameone.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/gameone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/gulli.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/gulli.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/histoire.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/histoire.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/i24.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/i24.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/idf1.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/idf1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/itele.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/itele.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/june.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/june.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/kombat.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/kombat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/kto.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/kto.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/latele.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/latele.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/lcp.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/lcp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/m6.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/m6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mcm.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mcm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/menuptv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/menuptv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mezzo.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mezzo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mtv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mtv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mtvbase.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mtvbase.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mtvidol.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mtvidol.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/mtvpulse.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/mtvpulse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/n23.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/n23.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/nrj12.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/nrj12.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/nt1.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/nt1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/ouitv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/ouitv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/paramount.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/paramount.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/parispremiere.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/parispremiere.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/rmcdecouverte.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/rmcdecouverte.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/rougetv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/rougetv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/rtl9.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/rtl9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/serieclub.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/serieclub.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/teva.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/teva.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/tf1.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/tf1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/tf6.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/tf6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/tmc.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/tmc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/tv.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/w9.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/w9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/weo.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/weo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/xxl.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/xxl.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv/zouzous.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv/zouzous.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/tv_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/tv_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/update.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/update.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/update_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/update_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/vf.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/vf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/views.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/views.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/vostfr.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/vostfr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/art/vsearch_fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/art/vsearch_fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/allmyvideos.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/allmyvideos.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/allow_redirects.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/allow_redirects.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/amazon.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/amazon.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/auroravid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/auroravid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/clickopen.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/clickopen.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/cloudvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/cloudvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/cloudy.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/cloudy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/daclips.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/daclips.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/dailymotion.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/dailymotion.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/divxstage.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/divxstage.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/easyvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/easyvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/easywatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/easywatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/estream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/estream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/facebook.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/facebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/filepup.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/filepup.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/filetrip.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/filetrip.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/filez.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/filez.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/flashx.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/flashx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/giga.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/giga.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/googledrive.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/googledrive.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/googlevideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/googlevideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/gorillavid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/gorillavid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/hdvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/hdvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/hoster.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/hoster.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/idowatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/idowatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/iframe_secured.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/iframe_secured.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/kvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/kvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/letwatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/letwatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/lien_direct.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/lien_direct.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/mailru.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/mailru.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/megawatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/megawatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/mystream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/mystream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/netu.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/netu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/nosvideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/nosvideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/nowvideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/nowvideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/ok_ru.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/ok_ru.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/onefichier.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/onefichier.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/onevideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/onevideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/openload.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/openload.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/pixsil.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/pixsil.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/playreplay.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/playreplay.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/raptu.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/raptu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/resolver.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/resolver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/rutube.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/rutube.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/sendvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/sendvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/speedvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/speedvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/speedvideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/speedvideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/stagevu.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/stagevu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/streamango.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/streamango.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/streaminto.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/streaminto.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/streammoe.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/streammoe.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/thevid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/thevid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/thevideo_me.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/thevideo_me.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/allvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/allvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/asx.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/asx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/axavid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/axavid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/azerfile.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/azerfile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/bronline.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/bronline.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/cloudy2.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/cloudy2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/dankfile.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/dankfile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/duckload.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/duckload.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/exashare.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/exashare.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/filebase.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/filebase.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/filestage.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/filestage.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/fullshare.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/fullshare.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/hqq.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/hqq.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/megavideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/megavideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/rapidvideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/rapidvideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/sharehoster.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/sharehoster.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/turbovid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/turbovid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/v_vids.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/v_vids.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/veevr.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/veevr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/vid_ag.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/vid_ag.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/vidbux.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/vidbux.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/videomega.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/videomega.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/videott.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/videott.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/wat_tv.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/wat_tv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/trash/youwatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/trash/youwatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/tune.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/tune.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/up2stream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/up2stream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/uplea.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/uplea.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/uploaded.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/uploaded.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/uptobox.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/uptobox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/uptostream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/uptostream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/upvid.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/upvid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/uqload.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/uqload.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/veehd.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/veehd.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidabc.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidabc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidbom.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidbom.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidbull.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidbull.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/videohut.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/videohut.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/videoraj.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/videoraj.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/videoweed.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/videoweed.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidlox.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidlox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidme.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidme.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidoza.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidoza.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidto.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidto.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidtodo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidtodo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidup.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidup.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidwatch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidwatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vidzi.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vidzi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vimeo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vimeo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vimple.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vimple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vk.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vk.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vodlocker.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vodlocker.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/vshare.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/vshare.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/watchers.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/watchers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/watchvideo.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/watchvideo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/wholecloud.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/wholecloud.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/wstream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/wstream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/youtube.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/youtube.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/hosters/zstream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/hosters/zstream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/language/English/strings.po" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/language/English/strings.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/language/French/strings.po" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/language/French/strings.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/GKDecrypter.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/GKDecrypter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/aadecode.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/aadecode.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/about.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/about.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/ba.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/ba.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/captcha.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/captcha.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/cloudflare.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/cloudflare.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/config.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/config.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/db.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/db.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/download.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/download.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/epg.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/epg.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/favourite.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/favourite.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/gui/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/gui/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/gui/contextElement.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/gui/contextElement.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/gui/gui.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/gui/gui.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/gui/guiElement.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/gui/guiElement.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/gui/hoster.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/gui/hoster.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/hosterHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/hosterHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/inputParameterHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/inputParameterHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/jdownloaderHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/jdownloaderHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/outputParameterHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/outputParameterHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/pluginHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/pluginHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/premiumHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/premiumHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/rechercheHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/rechercheHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/requestHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/requestHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/handler/siteHandler.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/handler/siteHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/home.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/home.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/jjdecode.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/jjdecode.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/jsparser.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/jsparser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/library.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/library.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/multihost.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/multihost.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/packer.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/packer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/parser.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/player.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/player.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/recaptcha.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/recaptcha.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/runscript.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/runscript.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/statistic.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/statistic.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/sucuri.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/sucuri.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/tinyjsparser.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/tinyjsparser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/tmdb.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/tmdb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/trakt.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/trakt.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/unwise.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/unwise.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/lib/util.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/lib/util.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/settings.xml" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/__init__.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/adkami_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/adkami_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/alluc_ee.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/alluc_ee.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/buzzmonclick_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/buzzmonclick_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/cinemavf.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/cinemavf.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/cinemay_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/cinemay_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/cinemegatoil_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/cinemegatoil_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/coco_stream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/coco_stream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/ddl_island_su.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/ddl_island_su.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/disneyhd_tk.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/disneyhd_tk.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/documentaires_streaming_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/documentaires_streaming_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/film_illimit_fr.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/film_illimit_fr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/filmstreamingv2.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/filmstreamingv2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/filmstreamvk_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/filmstreamvk_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/filmsvostfr_biz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/filmsvostfr_biz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/filmzenstream_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/filmzenstream_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/free_telechargement_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/free_telechargement_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/freebox.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/freebox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/french_stream_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/french_stream_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/frenchddl_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/frenchddl_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/full_stream_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/full_stream_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/gum_gum_streaming_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/gum_gum_streaming_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/kaydo_ws.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/kaydo_ws.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/kepliz_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/kepliz_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/les_debiles.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/les_debiles.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/les_docus.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/les_docus.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/libertyland_tv.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/libertyland_tv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/libre_stream_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/libre_stream_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/malaisetv.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/malaisetv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/mangacity_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/mangacity_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/mareplaytv.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/mareplaytv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/megastream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/megastream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/navixsport_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/navixsport_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/neuf_docu.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/neuf_docu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/otakufr_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/otakufr_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/papstream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/papstream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/papystreaming_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/papystreaming_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/planet_streaming.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/planet_streaming.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/regarder_films.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/regarder_films.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/replaytvstreaming_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/replaytvstreaming_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/reportagestv_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/reportagestv_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/robindesdroits.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/robindesdroits.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/serie_streaming_watch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/serie_streaming_watch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/serie_streaminghd.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/serie_streaminghd.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/series_en_streaming_tv.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/series_en_streaming_tv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/siteuptobox.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/siteuptobox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/skstream_co.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/skstream_co.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/sokrostream_biz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/sokrostream_biz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/spion_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/spion_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamay_bz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamay_bz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamcomplet.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamcomplet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamelite.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamelite.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamfilmzzz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamfilmzzz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streaming_series_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streaming_series_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streaming_series_xyz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streaming_series_xyz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamingbb.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamingbb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamingk_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamingk_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamiz_co.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamiz_co.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/streamzzz_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/streamzzz_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/themoviedb_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/themoviedb_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/topimdb.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/topimdb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/topreplay.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/topreplay.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/archive_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/archive_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/betaseries2.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/betaseries2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/cacastream_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/cacastream_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/dl_deprotect.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/dl_deprotect.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/exdown_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/exdown_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/otakufr_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/otakufr_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/papstream.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/papstream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/trash/tntv_rattrapage.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/trash/tntv_rattrapage.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/tv_streaming_ch.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/tv_streaming_ch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/tvrex_net.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/tvrex_net.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/videobuzzy_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/videobuzzy_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/vkstreamingfilm_biz.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/vkstreamingfilm_biz.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/voirfilms_org.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/voirfilms_org.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/youtitou_com.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/youtitou_com.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/zone_telechargement_ws.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/zone_telechargement_ws.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/sites/zonestreaming.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/sites/zonestreaming.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/720p/DialogCaptcha.xml" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/720p/DialogCaptcha.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/720p/DialogInfo.xml" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/720p/DialogInfo.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/720p/DialogInfo2.xml" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/720p/DialogInfo2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/actor.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/actor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/black-back.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/black-back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/button-nofocus.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/button-nofocus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/clavier.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/clavier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/fanart.jpg" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/focus.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/focus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/resources/skins/default/media/nofocus.png" afterPath="$PROJECT_DIR$/plugin.video.lstream/resources/skins/default/media/nofocus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/setup.py" afterPath="$PROJECT_DIR$/plugin.video.lstream/setup.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugin.video.vstream/soutient.txt" afterPath="$PROJECT_DIR$/plugin.video.lstream/soutient.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/plugin.video.vstream/changelog.txt" afterPath="$PROJECT_DIR$/repo/plugin.video.lstream/changelog.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/plugin.video.vstream/fanart.jpg" afterPath="$PROJECT_DIR$/repo/plugin.video.lstream/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/plugin.video.vstream/icon.png" afterPath="$PROJECT_DIR$/repo/plugin.video.lstream/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/repository.vstream/changelog.txt" afterPath="$PROJECT_DIR$/repo/repository.lstream/changelog.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/repository.vstream/fanart.jpg" afterPath="$PROJECT_DIR$/repo/repository.lstream/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repo/repository.vstream/icon.png" afterPath="$PROJECT_DIR$/repo/repository.lstream/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repository.vstream/addon.xml" afterPath="$PROJECT_DIR$/repository.lstream/addon.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repository.vstream/fanart.jpg" afterPath="$PROJECT_DIR$/repository.lstream/fanart.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/repository.vstream/icon.png" afterPath="$PROJECT_DIR$/repository.lstream/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml" afterPath="$PROJECT_DIR$/addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajouter_un_hebergeur.py" afterPath="$PROJECT_DIR$/ajouter_un_hebergeur.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajouter_une_source.py" afterPath="$PROJECT_DIR$/ajouter_une_source.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/historique.py" afterPath="$PROJECT_DIR$/historique.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hosts.json" afterPath="$PROJECT_DIR$/hosts.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites.json" afterPath="$PROJECT_DIR$/sites.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,18 +513,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="addons.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>kodi-vstream/venom-xbmc-addons</find>
       <find>vstream</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>demodt/lstream</replace>
+      <replace>lstream</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\kodi-addon\lstream</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/addons.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -52,6 +590,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -77,13 +616,24 @@
             <path>
               <item name="lstream" type="b2602c69:ProjectViewProjectNode" />
               <item name="lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugin.video.vstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugin.video.lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="lstream" type="b2602c69:ProjectViewProjectNode" />
               <item name="lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugin.video.vstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugin.video.lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="repo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="repo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="repository.lstream" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -121,12 +671,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516524942525</updated>
-      <workItem from="1516524943713" duration="172000" />
+      <workItem from="1516524943713" duration="978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172000" />
+    <option name="totallyTimeSpent" value="978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -135,9 +685,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -165,6 +715,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

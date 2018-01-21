@@ -23,7 +23,7 @@ import xbmcgui,xbmc
 class cHoster(iHoster):
 
     def __init__(self):
-        #Nom a afficher dans Vstream
+        #Nom a afficher dans lstream
         self.__sDisplayName = 'Nouvel hebergeur'
         self.__sFileName = self.__sDisplayName
         self.__sHD = ''
@@ -89,7 +89,7 @@ class cHoster(iHoster):
     def __getUrl(self, media_id):
         return
     
-    #Fonction appelle par Vstream pour avoir le lien decode
+    #Fonction appelle par lstream pour avoir le lien decode
     def getMediaLink(self):
         return self.__getMediaLinkForGuest()
 
@@ -119,7 +119,7 @@ class cHoster(iHoster):
         return False, False
 
         
-#Attention : Pour fonctionner le nouvel hebergeur doit etre rajoute dans le corps de Vstream, fichier Hosters.py.
+#Attention : Pour fonctionner le nouvel hebergeur doit etre rajoute dans le corps de lstream, fichier Hosters.py.
 #----------------------------------------------------------------------------------------------------------------
 #
 #Code pour selection de plusieurs liens
