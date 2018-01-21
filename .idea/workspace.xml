@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7f00075-003f-4d9b-932c-3d9fda30e7c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml.md5" afterPath="$PROJECT_DIR$/addons.xml.md5" />
-    </list>
+    <list default="true" id="c7f00075-003f-4d9b-932c-3d9fda30e7c3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516524942525</updated>
       <workItem from="1516524943713" duration="3133000" />
-      <workItem from="1516528302567" duration="1191000" />
+      <workItem from="1516528302567" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4324000" />
+    <option name="totallyTimeSpent" value="4362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
