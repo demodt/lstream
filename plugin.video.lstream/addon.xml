@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lstream" name="lstream" version="0.5.8" provider-name="Venom,TmpName,Johngf">
+<addon id="plugin.video.lstream" name="lstream" version="0.5.9" provider-name="LakeStreaming">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.common.plugin.cache" version="0.9.1"/>
@@ -7,9 +7,17 @@
         <import addon="script.module.simplejson" version="2.0.10"/>
         <import addon="script.module.urlresolver" optional="true"/>
         <import addon="repository.lstream" version="0.0.3"/>
+        <import addon="xbmc.python" version="2.1.0"/> <!-- Be able to use python in the addon -->
+        <import addon="script.module.pil" version="1.1.7"/>
+        <import addon="script.module.parsedom" version="2.5.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"> <!-- Extend KODI with a service. Start the addon when starting KODI, and run "default.py" -->
+    </extension>
+    <extension point="xbmc.python.script" library="standalone.py">
+        <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="fr">lstream</summary>
